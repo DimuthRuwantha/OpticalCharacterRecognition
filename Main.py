@@ -25,7 +25,7 @@ if __name__ == '__main__':
     textExtractor = TextExtraction()  # set the boundary for single character
     char_splitter = CharacterExtraction()
     char_identifier = CharacterIdentifier()
-# =====================================================================================================
+# ================================================================================#
 
     img_dict = char_db.character_db()  # object read all the characters in the db store to a dictionary
     s = str(input("Enter Image Name:"))
